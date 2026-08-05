@@ -75,7 +75,7 @@ three files are produced next to the source:
 
 - `<name>.lex` - the tokenized source
 - `<name>.sem` - static scope-check result
-- `<name>.html - generated HTML, which the program will also try to open
+- `<name>.html` - generated HTML, which the program will also try to open
     in Google Chrome
 
 If syntax or semantic analyssi fails, an error is printed and any
