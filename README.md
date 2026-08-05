@@ -1,6 +1,3 @@
-GitHub Repository:
-https://github.com/nmcgra/lolcompiler.git
-
 Executable Target:
 This build of lolcompiler uses macOS and Google Chrome web browser for HTML output preview.  
 The compiler was built as a single-file executable using `cargo build --release`.
