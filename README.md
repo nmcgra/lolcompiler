@@ -78,7 +78,7 @@ three files are produced next to the source:
 - `<name>.html` - generated HTML, which the program will also try to open
     in Google Chrome
 
-If syntax or semantic analyssi fails, an error is printed and any
+If syntax or semantic analysis fails, an error is printed and any
 intermediate output is removed.
 
 ## Project Layout
@@ -98,5 +98,5 @@ htmlgen.rs  - token-to-HTML translation and Chrome launch
 - `#OIC` unconditionally closes `<p>`, `<ul>`, and `<h1>` tags regardless of 
   which block it's actually closing, so nested/mixed block types can produce
   extra closing tags in the output HTML.
-- `#OBTW` / `#TLDR` (comments) are lexted as valid tokens but have no
+- `#OBTW` / `#TLDR` (comments) are lexed as valid tokens but have no
   parser or codegen handling.
